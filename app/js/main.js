@@ -55,7 +55,7 @@ function UiComponent() {
 const arr = [1, 2, 3];
 const squares = arr.map(x => x * x);
 /**
- * Awesome test
+ * Awesome
  */
 function printArrowFunc() {
     arr.forEach(function(element) {
