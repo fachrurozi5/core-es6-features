@@ -64,3 +64,8 @@ function printArrowFunc() {
 
     squares.forEach(x => console.log(x), this);
 }
+
+
+const arr1 = ['a', 'b'];
+const arr2 = ['b'];
+const arr3 = ['d', 'e'];
