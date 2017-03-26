@@ -69,3 +69,9 @@ function printArrowFunc() {
 const arr1 = ['a', 'b'];
 const arr2 = ['b'];
 const arr3 = ['d', 'e'];
+
+let button = document.getElementById('myButton');
+let paragraf = document.getElementsByTagName('P')[0];
+button.addEventListener("dblclick", function () {
+    alert(paragraf.textContent);
+});
