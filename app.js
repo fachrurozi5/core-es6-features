@@ -8,7 +8,7 @@ var bs = require('browser-sync').create();
  */
 bs.init({
     server: "app",
-    files: ["app/css/*.css"],
+    files: ["app/css/*.css", "app/js/*.js"],
     plugins: [
         {
             module: "bs-html-injector",

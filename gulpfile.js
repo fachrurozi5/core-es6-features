@@ -6,11 +6,17 @@ var htmlInjectior = require("bs-html-injector");
  *  Start browserSync
  */
 gulp.task("browser-sync", function () {
-    browserSync.use(htmlInjectior, {
-        files: "app/*.html"
-    });
     browserSync.init({
-        server: "./app"
+        server: "./app",
+        files: ["app/css/*.css", "app/js/*.js"],
+        plugins: [
+            {
+                module: "bs-html-injector",
+                options: {
+                    files: ["*.html", "*.js"]
+                }
+            }
+        ]
     });
 });
 

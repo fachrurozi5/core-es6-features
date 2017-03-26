@@ -68,7 +68,7 @@ function printArrowFunc() {
 
 const arr1 = ['a', 'b'];
 const arr2 = ['b'];
-const arr3 = ['d', 'e'];
+const arr3 = ['d', 'e', 'f', 'g'];
 
 let button = document.getElementById('myButton');
 let paragraf = document.getElementsByTagName('P')[0];
