@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-preset-react": "^6.23.0",
     "browser-sync": "^2.18.8",
     "bs-html-injector": "^3.0.3",
     "gulp": "^3.9.1"
